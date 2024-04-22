@@ -60,14 +60,14 @@
   },
   "suites": [
     {
-      "title": "productPageTest.spec.ts",
-      "file": "productPageTest.spec.ts",
+      "title": "mothersDayTest.spec.ts",
+      "file": "mothersDayTest.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Check cafe",
-          "ok": false,
+          "title": "Check if there is sold out product",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -79,56 +79,36 @@
               "results": [
                 {
                   "workerIndex": 0,
-                  "status": "failed",
-                  "duration": 16195,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('//p').nth(21)\nExpected string: not \u001b[32m\"Labesque\"\u001b[39m\nReceived string: \u001b[31m\"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy \u001b[7mLabesque\u001b[27m, are ready to taste, share, gift, and compare. \"\u001b[39m\nCall log:\n  \u001b[2m- expect.not.toContainText with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//p').nth(21)\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('//p').nth(21)\nExpected string: not \u001b[32m\"Labesque\"\u001b[39m\nReceived string: \u001b[31m\"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy \u001b[7mLabesque\u001b[27m, are ready to taste, share, gift, and compare. \"\u001b[39m\nCall log:\n  \u001b[2m- expect.not.toContainText with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//p').nth(21)\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\n    at c:\\Users\\hazim\\Documents\\DandelionChocolate\\tests\\productPageTest.spec.ts:11:35",
-                    "location": {
-                      "file": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\tests\\productPageTest.spec.ts",
-                      "column": 35,
-                      "line": 11
-                    },
-                    "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m         \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m productPage\u001b[33m.\u001b[39mallParagraphs\u001b[33m.\u001b[39mnth(i)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m         \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m         expect(\u001b[36mawait\u001b[39m element)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Labesque'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m       }\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m })\u001b[0m"
-                  },
-                  "errors": [
+                  "status": "passed",
+                  "duration": 12850,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "location": {
-                        "file": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\tests\\productPageTest.spec.ts",
-                        "column": 35,
-                        "line": 11
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('//p').nth(21)\nExpected string: not \u001b[32m\"Labesque\"\u001b[39m\nReceived string: \u001b[31m\"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy \u001b[7mLabesque\u001b[27m, are ready to taste, share, gift, and compare. \"\u001b[39m\nCall log:\n  \u001b[2m- expect.not.toContainText with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//p').nth(21)\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\u001b[2m  -   locator resolved to <p>Our house-made hot chocolate has been a café favo…</p>\u001b[22m\n\u001b[2m  -   unexpected value \"Our house-made hot chocolate has been a café favorite since our earliest days, when we dreamed of concocting a perfect hot drink to ward off San Francisco’s perpetually foggy chill. This season we’ve created a beautifully boxed trio of flavorful hot chocolate mixes to whisk up at home with fresh milk, cream, or dairy alternatives. Three delicious single-origin chocolate mixes, contained in elegant reusable glass vials designed just for us by the talented industrial designer (and Dandelion friend) Remy Labesque, are ready to taste, share, gift, and compare. \"\u001b[22m\n\n\n\u001b[0m \u001b[90m  9 |\u001b[39m         \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m productPage\u001b[33m.\u001b[39mallParagraphs\u001b[33m.\u001b[39mnth(i)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m         \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m         expect(\u001b[36mawait\u001b[39m element)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Labesque'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m       }\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m })\u001b[0m\n\n\u001b[2m    at c:\\Users\\hazim\\Documents\\DandelionChocolate\\tests\\productPageTest.spec.ts:11:35\u001b[22m"
+                      "text": "\n      \n        Fruit, Nut, & Chocolate\n      \n    \n"
                     }
                   ],
-                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-01-14T19:52:43.454Z",
+                  "startTime": "2024-04-22T19:08:18.705Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\test-results\\productPageTest-Check-cafe-chromium\\test-finished-1.png"
+                      "path": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\test-results\\mothersDayTest-Check-if-there-is-sold-out-product-chromium\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\test-results\\productPageTest-Check-cafe-chromium\\video.webm"
+                      "path": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\test-results\\mothersDayTest-Check-if-there-is-sold-out-product-chromium\\video.webm"
                     }
-                  ],
-                  "errorLocation": {
-                    "file": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\tests\\productPageTest.spec.ts",
-                    "column": 35,
-                    "line": 11
-                  }
+                  ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "894bce1e2908524786c4-ae885eb940939540def1",
-          "file": "productPageTest.spec.ts",
+          "id": "c40b55c72a3d924bac29-1064039938f2766a698d",
+          "file": "mothersDayTest.spec.ts",
           "line": 5,
           "column": 1
         }
@@ -137,11 +117,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-01-14T19:52:41.879Z",
-    "duration": 20614.974000000002,
-    "expected": 0,
+    "startTime": "2024-04-22T19:08:16.625Z",
+    "duration": 16703.705,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
