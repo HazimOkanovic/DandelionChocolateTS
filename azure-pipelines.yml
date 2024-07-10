@@ -1,0 +1,17 @@
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- checkout: self
+  displayName: 'Checkout Repo'
+
+- script: |
+    cd DandelionChocolate TS
+    install npm
+    npm playwright install
+    npx playwright test
+  displayName: 'Run a multi-line script'
