@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\playwright.config.ts",
-    "rootDir": "c:/Users/hazim/Documents/DandelionChocolate/tests",
+    "configFile": "C:\\Users\\hazim\\Documents\\DandelionChocolate\\playwright.config.ts",
+    "rootDir": "C:/Users/hazim/Documents/DandelionChocolate/tests",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -39,12 +39,12 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "c:/Users/hazim/Documents/DandelionChocolate/test-results",
+        "outputDir": "C:/Users/hazim/Documents/DandelionChocolate/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "chromium",
         "name": "chromium",
-        "testDir": "c:/Users/hazim/Documents/DandelionChocolate/tests",
+        "testDir": "C:/Users/hazim/Documents/DandelionChocolate/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -54,19 +54,19 @@
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.40.1",
+    "version": "1.43.1",
     "workers": 2,
     "webServer": null
   },
   "suites": [
     {
-      "title": "mothersDayTest.spec.ts",
-      "file": "mothersDayTest.spec.ts",
+      "title": "brokenLinks.spec.ts",
+      "file": "brokenLinks.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Check if there is sold out product",
+          "title": "Test of broken links",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,31 +80,116 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 12850,
+                  "duration": 645738,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "\n      \n        Fruit, Nut, & Chocolate\n      \n    \n"
+                      "text": "Links checked  \u001b[33m648\u001b[39m\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-04-22T19:08:18.705Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\test-results\\mothersDayTest-Check-if-there-is-sold-out-product-chromium\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "c:\\Users\\hazim\\Documents\\DandelionChocolate\\test-results\\mothersDayTest-Check-if-there-is-sold-out-product-chromium\\video.webm"
-                    }
-                  ]
+                  "startTime": "2024-04-25T18:53:49.783Z",
+                  "attachments": []
                 }
               ],
               "status": "expected"
+            }
+          ],
+          "id": "4b35aca908de046314be-ef9c52260f92bfeda939",
+          "file": "brokenLinks.spec.ts",
+          "line": 16,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "missingAccentTest.spec.ts",
+      "file": "missingAccentTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Check cafe",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 2700000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 41,
+                  "error": {
+                    "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\hazim\\AppData\\Local\\ms-playwright\\chromium-1112\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\hazim\\AppData\\Local\\ms-playwright\\chromium-1112\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\hazim\\AppData\\Local\\ms-playwright\\chromium-1112\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-25T18:53:49.244Z",
+                  "attachments": []
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "88b79bc673c01d96910d-68b7f8b6ce1729a56d2a",
+          "file": "missingAccentTest.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "mothersDayTest.spec.ts",
+      "file": "mothersDayTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Check if there is sold out product",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 2700000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "failed",
+                  "duration": 22,
+                  "error": {
+                    "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\hazim\\AppData\\Local\\ms-playwright\\chromium-1112\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\hazim\\AppData\\Local\\ms-playwright\\chromium-1112\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\hazim\\AppData\\Local\\ms-playwright\\chromium-1112\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-25T18:53:51.372Z",
+                  "attachments": []
+                }
+              ],
+              "status": "unexpected"
             }
           ],
           "id": "c40b55c72a3d924bac29-1064039938f2766a698d",
@@ -117,11 +202,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-04-22T19:08:16.625Z",
-    "duration": 16703.705,
+    "startTime": "2024-04-25T18:53:46.304Z",
+    "duration": 649620.218,
     "expected": 1,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 2,
     "flaky": 0
   }
 }
