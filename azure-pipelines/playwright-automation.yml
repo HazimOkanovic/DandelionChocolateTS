@@ -1,5 +1,5 @@
 pool:
-  vmImage: 'linux-latest'
+  vmImage: 'windows-latest'
 
 trigger:
   branches:
